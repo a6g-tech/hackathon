@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Layout from "../components/layout";
 
 export default function Home() {
   return (
@@ -8,11 +9,7 @@ export default function Home() {
         <meta name="description" content="web3 citizen meta profile" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <h1>w3meta</h1>
-        <h2>web3 citizen meta profile</h2>
-      </main>
-      <footer></footer>
+      <Layout />
     </div>
   );
 }
